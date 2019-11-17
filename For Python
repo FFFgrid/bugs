@@ -12,3 +12,4 @@ x=input().split()
 ### 如果希望使得列表中的每个元素都变成整数：
 x=list(map(int, input().split()))
 ### x=[1,2,3,4...]
+###或者也可以写为num = [int(x) for x in str_in.split()]
