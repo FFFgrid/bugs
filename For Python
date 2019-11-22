@@ -25,3 +25,9 @@ for i in range(d):
     
 for x in arr[d:]:
     print(x, end=' ')
+
+
+ex:
+输入：5 1
+     1 2 3 4 5
+输出：2 3 4 5 1
