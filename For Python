@@ -13,3 +13,15 @@ x=input().split()
 x=list(map(int, input().split()))
 ### x=[1,2,3,4...]
 ###或者也可以写为num = [int(x) for x in str_in.split()]
+
+3.注意列表切片的使用可能带来极大的便捷
+# Line 1:n is the number of the numbers, d is the rotation times
+# Line 2:array
+n, d = map(int, input().split())
+arr = [int(x) for x in input().split()]
+
+for i in range(d):
+    arr.append(arr[i])
+    
+for x in arr[d:]:
+    print(x, end=' ')
